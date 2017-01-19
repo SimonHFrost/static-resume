@@ -15,6 +15,11 @@
   margin: 0 auto;
 }
 
+.intro-icon {
+  position: relative;
+  top: 3px;
+}
+
 h1 {
   text-align: center;
 }
