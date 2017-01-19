@@ -8,12 +8,16 @@
   src: url("../fonts/crimsontext/CrimsonText-Regular.ttf");
 }
 
+body {
+  -webkit-print-color-adjust: exact;
+  font-size: 12px;
+}
+
 .container {
   color: #333;
   font-family: "crimsontext";
   width: 600px;
   margin: 0 auto;
-  -webkit-print-color-adjust:exact;
 }
 
 .intro-icon {
@@ -49,11 +53,11 @@ a {
 
 li:before {
   background-image: url('../svg/chevron-right.svg');
-  background-position: 2px 2px;
+  background-position: 5px 7px;
   background-repeat: no-repeat;
   content: " ";
   display: inline-block;
   margin-left: -16px;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 }
