@@ -14,10 +14,6 @@
   width: 600px;
 }
 
-a {
-  color: inherit;
-}
-
 h1 {
   text-align: center;
 }
@@ -38,6 +34,10 @@ ul {
 
 li {
   padding-left: 16px;
+}
+
+a {
+  color: inherit;
 }
 
 li:before {
