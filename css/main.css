@@ -15,8 +15,7 @@
 }
 
 a {
-  text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 h1 {
@@ -38,13 +37,16 @@ ul {
 }
 
 li {
-  padding-left: 20px;
+  padding-left: 16px;
 }
 
 li:before {
-  content: "H"; /* FontAwesome Unicode */
-  font-family: FontAwesome;
+  background-image: url('../svg/chevron-right.svg');
+  background-position: 2px 2px;
+  background-repeat: no-repeat;
+  content: " ";
   display: inline-block;
-  margin-left: -20px; /* same as padding-left set on li */
-  width: 20px; /* same as padding-left set on li */
+  margin-left: -16px;
+  width: 16px;
+  height: 16px;
 }
