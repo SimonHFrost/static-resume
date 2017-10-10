@@ -20,9 +20,19 @@ body {
   margin: 0 auto;
 }
 
+.parent-div {
+  display: flex;
+}
+
+.summary-info {
+  /* should be able to horizontall center with flebox instead of this... */
+  padding: 0 20px;
+  flex: 1;
+}
+
 .intro-icon {
   position: relative;
-  top: 3px;
+  top: 4px;
 }
 
 h1 {
