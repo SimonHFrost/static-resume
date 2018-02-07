@@ -26,7 +26,7 @@ body {
 }
 
 .summary-info {
-  /* should be able to horizontall center with flebox instead of this... */
+  /* should be able to horizontally center with flexbox instead of this... */
   padding: 0 20px;
   flex: 1;
 }
