@@ -11,6 +11,7 @@
 body {
   -webkit-print-color-adjust: exact;
   font-size: 12px;
+  padding-top: 40px;
 }
 
 .container {
