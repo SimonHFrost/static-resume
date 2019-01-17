@@ -17,7 +17,7 @@ body {
 .container {
   color: #333;
   font-family: "crimsontext";
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .summary-info {
   /* should be able to horizontally center with flexbox instead of this... */
-  padding: 0 20px;
+  padding: 0 58px;
   flex: 1;
 }
 
