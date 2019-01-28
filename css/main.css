@@ -10,7 +10,7 @@
 
 body {
   -webkit-print-color-adjust: exact;
-  font-size: 12px;
+  font-size: 16px;
   padding-top: 40px;
 }
 
@@ -23,13 +23,13 @@ body {
 
 .summary-parent {
   display: flex;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .summary-info {
-  /* should be able to horizontally center with flexbox instead of this... */
-  padding: 0 58px;
   flex: 1;
+  display: flex;
+  justify-content: space-around;
 }
 
 .intro-icon {
@@ -62,6 +62,7 @@ li {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 li:before {
@@ -73,4 +74,15 @@ li:before {
   margin-left: -16px;
   width: 20px;
   height: 20px;
+}
+
+@media print {
+  @page {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  body {
+    margin: 0;
+  }
 }
