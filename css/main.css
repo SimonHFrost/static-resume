@@ -89,10 +89,6 @@ li:before {
 }
 
 @media print {
-  @page {
-    margin-top: 60px;
-  }
-
   body {
     margin: 0;
   }
