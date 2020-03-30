@@ -23,7 +23,7 @@ body {
 
 .summary-parent {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .summary-info {
@@ -88,8 +88,10 @@ li:before {
   height: 20px;
 }
 
-@media print {
-  body {
-    margin: 0;
-  }
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
 }
