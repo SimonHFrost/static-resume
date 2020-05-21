@@ -48,12 +48,12 @@ h2 {
   padding-bottom: 10px;
 }
 
-h3 {
-  margin-left: 36px;
-}
-
 .job-section {
   position: relative;
+}
+
+.job-section h3 {
+  margin-left: 36px;
 }
 
 .company-logo {
