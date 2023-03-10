@@ -1,3 +1,5 @@
+[Resume.pdf](https://github.com/SimonHFrost/static-resume/raw/master/resume.pdf)
+
 Quick run
 ---- 
 
