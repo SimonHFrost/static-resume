@@ -3,6 +3,6 @@
 Quick run
 ---- 
 
-* `python -m SimpleHTTPServer`
+* `python3 -m http.server`
 * open page in browser
 * print and save as pdf
