@@ -5,6 +5,6 @@ Click the link below to download my resume:
 Quick run
 ---- 
 
-* `python3 -m http.server`
+* `npx http-server`
 * open page in browser
 * print and save as pdf
