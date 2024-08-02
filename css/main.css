@@ -23,6 +23,7 @@ body {
 .summary-parent {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 18px;
 }
 
 .summary-info-left {
