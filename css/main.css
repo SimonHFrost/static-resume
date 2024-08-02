@@ -59,6 +59,11 @@ h2 {
   margin-left: 36px;
 }
 
+.job-details {
+  display: flex;
+  flex-direction: row;
+}
+
 .company-logo {
   position: absolute;
   top: -5px;
