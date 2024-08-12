@@ -36,6 +36,11 @@ body {
   text-align: right;
 }
 
+.summary-intro-text {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 .intro-icon {
   position: relative;
   top: 2px;
@@ -50,6 +55,7 @@ h1 {
 h2 {
   border-bottom: solid 1px lightgray;
   padding-bottom: 10px;
+  margin-top: 0px;
 }
 
 .job-section {
