@@ -11,6 +11,7 @@
 body {
   -webkit-print-color-adjust: exact;
   font-size: 14px;
+  margin-top: 40px;
 }
 
 
@@ -115,4 +116,8 @@ li:before {
 
 .column {
   flex: 1;
+}
+
+.page-break {
+  margin-bottom: 400px;
 }
