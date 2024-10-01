@@ -14,8 +14,6 @@ body {
   margin-top: 40px;
 }
 
-
-
 .container {
   color: #333;
   font-family: "crimsontext";
@@ -81,7 +79,9 @@ h2 {
   width: 30px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "montserrat";
 }
 
@@ -100,7 +100,7 @@ a {
 }
 
 li:before {
-  background-image: url('../svg/chevron-right.svg');
+  background-image: url("../svg/chevron-right.svg");
   background-position: 5px 7px;
   background-repeat: no-repeat;
   content: " ";
