@@ -111,6 +111,10 @@ li:before {
   height: 20px;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 .columns {
   display: flex;
 }
