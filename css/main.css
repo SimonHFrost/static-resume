@@ -64,7 +64,8 @@ h2 {
   position: relative;
 }
 
-.job-section h3 {
+.job-section h3,
+.job-section h4 {
   margin-left: 36px;
 }
 
