@@ -101,18 +101,7 @@ a {
   text-decoration: none;
 }
 
-li:nth-child(2):before {
-  background-image: url("../svg/calendar.svg");
-  background-position: 5px 7px;
-  background-repeat: no-repeat;
-  content: " ";
-  display: inline-block;
-  margin-left: -16px;
-  width: 20px;
-  height: 20px;
-}
-
-li:not(:nth-child(2)):before {
+li:before {
   background-image: url("../svg/chevron-right.svg");
   background-position: 5px 7px;
   background-repeat: no-repeat;
