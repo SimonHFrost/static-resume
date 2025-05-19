@@ -161,7 +161,6 @@ li:before {
   content: " ";
   display: inline-block;
   margin-left: 0;
-  margin-right: 4px;
   position: relative;
   top: -3px !important;
 }
