@@ -165,3 +165,7 @@ li:before {
   position: relative;
   top: -3px !important;
 }
+
+.job-section ul li + li:before {
+  background-image: url("../svg/person.svg");
+}
