@@ -155,8 +155,13 @@ li:before {
 }
 
 .job-section ul li:before {
+  background-image: url("../svg/calendar.svg");
+  background-position: 0 2px;
+  background-repeat: no-repeat;
+  content: " ";
+  display: inline-block;
   margin-left: 0;
   margin-right: 4px;
   position: relative;
-  top: 1px;
+  top: -3px !important;
 }
